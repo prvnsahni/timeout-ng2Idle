@@ -7,8 +7,8 @@ import { TimeServiceService } from '../time-service.service';
   styleUrls: ['./logout.component.css']
 })
 export class LogoutComponent implements OnInit {
-idleState = this._service.idleState;
-  constructor(private _service: TimeServiceService) { }
+// idleState = this._service.idleState;
+  // constructor(private _service: TimeServiceService) { }
 
   ngOnInit() {
   }

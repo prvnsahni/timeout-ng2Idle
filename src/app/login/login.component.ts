@@ -9,11 +9,11 @@ import {Router} from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  timedOut = this._timeService.timedOut;
-  
-  constructor(private _timeService: TimeServiceService, private router: Router) { }
+  // timedOut = this._timeService.timedOut;
+
+  // constructor(private _timeService: TimeServiceService, private router: Router) { }
 
   ngOnInit() {
-    this._timeService.reset();
+    // this._timeService.reset();
   }
 }
